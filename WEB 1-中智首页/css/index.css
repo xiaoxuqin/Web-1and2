@@ -1,0 +1,424 @@
+*{
+	padding: 0;
+	margin:0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*header开始*/
+.header{
+	width: 100%;
+	height: 173px;
+	background-color: #eeeeef;
+}
+.logo{
+	padding-top: 30px;
+	text-align: center;
+	height:95px;
+}
+.nav{
+	width: 720px;
+	height: 45px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 23px;/*圆角*/
+}
+.nav li{
+	float: left;
+	height: 45px;
+	padding: 0 30px;
+	line-height: 45px;
+	background: url(../img/line.png) no-repeat right center;
+}
+.nav li a{
+	display: block;/*要给a设高度，则a必须为块元素*/
+	height: 42px;
+	font-family: 微软雅黑；
+	font-size:14px;
+	text-align: center;
+	color: #333333;
+}
+.nav li a:hover{
+	color:#1e50ae; 
+	border-bottom: 3px solid #1e50ae;	
+
+}
+.nav li:last-child{
+	background: none;
+}
+/*header结束*/
+/*banner开始*/
+.banner{
+	width: 100%;
+	height: 405px;
+	background: url(../img/people.png) no-repeat right center;
+}
+/*banner结束*/
+/*服务项目开始*/
+.service{
+	width: 1200px;
+	height: 780px;
+	margin: 0 auto;
+}
+.word1{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-family: 微软雅黑；
+	font-size:34px;
+	text-align: center;
+	color: #333 ;
+}
+.word2{
+	margin-bottom: 60px;
+	font-size:15px;
+	text-align: center;
+	color: #333;
+}
+.box2{
+	float: left;
+	width: 300px;
+	height: 368px;
+}
+.box2 img{
+	margin-left: 78px;
+}
+.box3{
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+.dot{
+	margin-right: 6px;
+}
+.word3{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font-family: 微软雅黑;
+	font-size: 16px;
+	text-align: center;
+	color: #333;
+}
+.word4{
+	display: block;
+	font-family: 微软雅黑；
+	font-size:16px;	
+	color: #919191;
+	margin-left: 40px;
+}
+/*服务项目结束*/
+/*解决方案开始*/
+.solution{
+	width: 100%;
+	height: 712px;
+	background: url(../img/background.png) no-repeat center center;
+	margin: 0 auto;
+}
+.box4{
+	width: 1200px;
+	height: 712px;
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+}
+.arrowleft{
+	position: absolute;
+	float: left;
+	top: 345px;
+	left: 0;
+}
+.arrowright{
+	position: absolute;
+	right: 0;
+	top: 345px;
+}
+.word5{
+	padding-top: 75px;
+	margin-bottom: 24px;
+	font-family: 微软雅黑；
+	font-size:34px;
+	text-align: center;
+	color: #fff;
+}
+
+.word6{
+	margin-bottom: 80px;
+	font-size: 17px;
+	text-align: center;
+	color:#fff;
+}
+.box5{
+	float: left;
+	width: 300px;
+	text-align: center;
+}
+
+.box4 button{
+	width: 230px;
+	height: 50px;
+	background: none;
+	border: 1px solid #fff; 
+	border-radius: 25px;
+	margin-top: 80px;
+	color:#fefefe;
+	font-family:微软雅黑； 
+	font-size:20px；	
+}
+/*解决方案结束*/
+/*最新资讯开始*/
+.information{
+ 	width:1200px;
+ 	height: 850px; 
+ 	margin: 0 auto;
+}
+.mationword1{
+	margin-top: 60px;
+	margin-bottom: 23px;
+	font-family: 微软雅黑；
+	font-size:34px;
+	text-align: center;
+	color: #333 ;
+}
+.mationword2{
+	font-size: 17px;
+	text-align: center;
+	color: #333;
+}
+.box6{
+	width:1200px;
+	margin:0 auto;
+}
+.box6_1{
+	float: left;
+	margin-top: 30px;
+}
+.box6_2{
+	width: 580px;
+	height: 400px;
+	float: left;
+	margin-left: 120px;
+}
+.word7{
+	font-family: 微软雅黑；
+	font-size:22px;
+	color: #333;
+	margin-top: 60px;
+	margin-bottom: 17px;
+}
+.word8{
+	font-family: 微软雅黑；
+	font-size:18px;
+	color: #333;
+}
+.word9{
+	font-family: 微软雅黑；
+	font-size:14px;
+	color: #969696;
+	margin-top: 32px;
+	margin-bottom: 30px;
+	line-height: 32px;
+}
+.bluebutton{
+	width: 138px;
+	height: 39px;
+	background: none;
+	border: 1px solid #1141a3; 
+	border-radius: 20px;
+	color:#1141a3;
+	font-family:微软雅黑； 
+	font-size:16px；
+}
+.eight{
+	margin-top: 50px;
+	width: 1200px;
+	height: 345px;
+	margin:0 auto;
+}
+.eight_1{
+	display: block;
+	float: left;
+	margin-left: 25px;
+	margin-right: 35px;
+}
+.eight_2{
+	display: block;
+	float: left;
+}
+.eightli{
+	font-family: 微软雅黑；
+	font-size: 14px;
+	color:#797979;
+	line-height: 50px;
+	border-bottom: 1px dashed #dcdcdc;
+} 
+.eightlast{
+	font-family: 微软雅黑；
+	font-size: 14px;
+	color:#797979;
+	line-height: 50px;
+}
+.long{
+	width: 100%;
+	height: 102px;
+	background-color: #f5f5f5;
+}
+.long_1{
+	width: 1200px;
+	height: 102px;
+	margin: 0 auto;
+}
+.float4{
+	display: block;
+	float: left;
+	width: 300px;
+	height: 102px;
+	margin: 0 auto;
+}
+.long img{
+	float: left;
+	margin-top: 30px;
+	margin-right: 23px;
+}
+.float5{
+	display: block;
+	float: left;
+	margin-top: 32px;
+	border-right:2px solid #e0e0e0;
+}
+.float5_last{
+	display: block;
+	float: left;
+	margin-top: 32px;
+}
+.wordup{
+	font-family: 微软雅黑;
+	font-size:19px;
+	color: #333;
+	font-weight: lighter;
+	
+}
+.worddown{
+	font-family: 微软雅黑;
+	font-size:13px;
+	color: #4f4f4f;
+	font-weight: lighter;
+}
+.long p{
+	padding-right:60px;
+}
+/*最新资讯结束*/
+/*页尾开始*/
+.box9{
+	width: 100%;
+	height: 265px;
+	background-color: #323232;
+	margin: 0 auto;
+	border-bottom: 1px solid #777;
+}
+.box9_1{
+	width: 1200px;
+	height: 264px;
+	margin: 0 auto;
+}
+.float10{
+	margin-right: 106px;
+	float: left;
+	margin-bottom: 45px;
+}
+.word10{
+	font-family: 微软雅黑；
+	font-size:18px;
+	font-weight: lighter;
+	margin-top: 75px;
+	margin-bottom: 32px;
+	color: #cacaca; 
+}
+.word11{
+	font-family: 微软雅黑；
+	font-size:14px;
+	font-weight: lighter;
+	line-height: 24px;
+	color: #cacaca; 
+}
+.weixin{
+	float: left;
+}
+.ma{
+	display: block;
+	float: left;
+	margin-top: 70px;
+	margin-left: 12px;
+	margin-right: 38px;
+}
+.zi{
+	display: block;
+	float: left;
+	margin-top: 85px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #d6d6d6;
+}
+.longline{
+	display: block;
+	float: left;
+	margin-left:35px; 
+	margin-right:45px;
+	margin-top:74px;
+}
+.word12{
+	display: block;
+	float: left;
+	margin-top: 88px;
+	font-family: 微软雅黑：
+	font-size: 18px;
+	font-weight: lighter;
+	color: #cacaca;
+}
+.word13{
+	display: block;
+	float: left;
+	margin-top: 20px;
+	font-family: 微软雅黑：
+	font-size: 16px;
+	font-weight: lighter;
+	color: #cacaca;
+}
+.box10{
+	width: 100%;
+	height: 125px;
+	background-color: #323232;
+	margin: 0 auto;
+}
+.final{
+	width: 1200px;
+	height: 125px;
+	margin:0 auto;	
+}
+.final1 ul{
+	float: left;
+	margin-top: 36px;
+	margin-left: 160px;
+}
+.final1 li{
+	float: left;
+	font-family: 微软雅黑；
+	font-size:14px;
+	color: #cacaca;
+	font-weight: lighter;
+	padding: 0 9px;
+	border-right: 2px solid #cacaca;
+}
+.final li.last{
+	border-right: 0;
+}
+.word14{
+	font-family: 微软雅黑；
+	font-size:14px;
+	color: #cacaca;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 22px;
+	clear: both;
+}
